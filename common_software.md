@@ -47,8 +47,28 @@ A Mac only version of GnuPG with some additional tools providing encryption serv
 An open source web browser produced by the American non-profit [Mozilla Foundation](https://mozilla.org) which is used as a platform for the Tor Browser Bundle. Many privacy and security add-ons are available for this browser platform.
 
 **HTTPS Everywhere**
+*tool type:* Firefox add-on
+*features:* secures more web connections    
+*license terms:* open source  
+*operating systems:* Windows, OSX, Linux  
+
+HTTPS Everywhere is a Firefox add-on produced by the [Electronic Frontier Foundation]("www.eff.org") and integrated into the Tor Browser Bundle that forces your web browser to use secure connections to websites whenever possible.
+
+**NoScript**
+*tool type:* Firefox add-on
+*features:* Javascript blocking    
+*license terms:* open source  
+*operating systems:* Windows, OSX, Linux  
+
+NoScript is a Firefox add-on that completely or selectively blocks Javascript content in web pages. Running third party supplies scripts such as those it blocks can often compromise anonymity or privacy. The Tor Browser Bundle comes with NoScript installed and 
 
 **PrivacyBadger**
+*tool type:* Firefox add-on
+*features:* cookie blocking    
+*license terms:* open source  
+*operating systems:* Windows, OSX, Linux  
+
+PrivacyBadger is a Firefox add-on produced by the [Electronic Frontier Foundation]("www.eff.org") that blocks tracking and other malicious cookies set by third parties and website operators.
 
 **Thunderbird**  
 *tool type:* email client  
@@ -75,7 +95,7 @@ Additionally Tor provides a system of self-authenticating, anonymous services fo
 *operating systems:* Windows, OSX, Linux  
 A highly customized Firefox web browser that comes preconfigured to use the included tor software and to protect your privacy. The browser also allows access to hidden services or the "Onion Web" -- a set of strongly authenticated anonymous services available through the Tor network.
 
-**TorBirdy**  
+**TorBirdy*  
 *tool type:* Thunderbird add-on
 *features:* Tor access, anonymity for email    
 *license terms:* open source  
