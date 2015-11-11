@@ -1,8 +1,3 @@
----
-title: Internet Freedom Reference for Humans
-author: Jonah Silas Sheridan
-date: 11/9/2015
-
 
 # Introduction  
 These documents comprise an Internet Freedom Reference set for use by non-technical or less technical people. Content was created specifically for inclusion in Satori, a tool for securely accessing circumvention and privacy protecting software.
