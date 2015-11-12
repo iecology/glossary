@@ -18,10 +18,11 @@ A function of Public Key Cryptography which describes a type of encryption in wh
 
 **Backup**:
 Regularly updated copies of your files, ideally stored in several different places, so that if access to or integrity of
-your data is disrupted for any reason (damage to computers due to accident or natural disaster, accidental or malicious deletion of files, damage to storage devices or servers), they can be restored. Online backup services are best supplemented by backups stored on personal equipment. Depending on circumstances, distributing encrypted copies to offsite storage sites by trading with others can be a wise strategy to carefully consider for your context.
+your data is disrupted for any reason (damage to computers due to accident or natural disaster, accidental or malicious deletion of files, damage to storage devices or servers), they can be restored. Online backup services are best supplemented by backups
+stored on personal equipment. Depending on circumstances, distributing encrypted copies to offsite storage sites by trading with others can be a wise strategy to carefully consider for your context.
 
 **Bridge Relay**:  
-A Bridge Relay is a server in the Tor network that is not publicly announced. If you choose to use a bridge, the server can provide you with access to the Tor network even if Tor is blocked in your country or network.
+A Bridge Relay is a server in the Tor network that is not publicly announced and so harder to block. If you choose to use a bridge, the server can provide you with access to the Tor network even if Tor is blocked in your country or network.
 
 **Cookies**:
 Small files placed on your computer by websites that you visit to help customize your experience. They are used to manage website features such as logins and can also be used to track behavior on the web. While not all cookies are a security risk, if poorly implemented they can expose the information they contain. Read more about cookies [here](http://www.allaboutcookies.org/)
@@ -29,11 +30,11 @@ Small files placed on your computer by websites that you visit to help customize
 **Checksum**:
 In the context of this tool, a checksum is number that acts a unique fingerprint of a file or program. Using this number you can verify that a file you are going to use is the same one you saved, received or downloaded. This number is commonly published along with software releases so you can be sure your downloads have not been changed in between you and the provider. This number can be computed using various types of hash functions, some of which have a stronger guarantee of uniqueness (and so can’t be forged). For this reason Satori uses SHA256 checksums rather than less secure MD5 or SHA1 checksums.  
 
-**Circumvention**:
-The act of bypassing Internet controls, whether filters, censorship or monitoring, to safely and reliably access monitored or blocked websites and other Internet services.
-
 **Credentials**:
 Credentials are anything you use to identify yourself to a computer system. Commonly this is a username and password combination but can also additionally or only be other items such as a one time code that comes from a program or text message, a security certificate or anything else that strongly identifies who is connecting.
+
+**Deep Packet Inspection or DPI**
+Deep Packet Inspection is a method used to analyze the content of Internet traffic rather than just the information about the traffic such as where it came from and where it is going to. DPI is used to monitor, log or block specific users and is frequently employed by corporations, ISPs and governments to stop access to specific services or sites.  
 
 **Digital Assets**:  
 Any and all data you store electronically. This includes files, website, emails, social media accounts, online banking accounts, etc. Some of these items may be ones that you administer yourself (e.g., the contents of hard drives, file repositories stored on servers owned and controlled by your organization); others may be maintained by third party services on your behalf (e.g., files on Google Drive or Box). Others are services that you participate in that are owned and controlled by others (subject to terms of service), such as social media content.
@@ -56,6 +57,9 @@ A piece of software or hardware device that analyzes and selectively blocks or a
 **Hexidecimal**:
 Hexidecimal numbering, often shortened to hex, is a common and handy way of representing information on computers. Instead of just the numerals 0 through 9, hexidecimal also uses the letters A through F. SHA256 checksums as used in Satori are hexidecimal numbers for easy comparison.  
 
+**Internet Service Provider or ISP**
+An Internet Service Provider in this context is a company that sells access to the Internet as as service. In many countries these companies work closely with the government to monitor, alter or block specific connections to services on the Internet. Additionally some ISP's have used their position to track people for targeted advertisements. In these ways and others your ISP can be a threat to your privacy and anonymity while also providing the important service of connecting you to the Internet. 
+
 **Key Material**:
 See Encryption Key
 
@@ -68,8 +72,8 @@ Open Source Software (OSS), or sometimes **F**ree and **L**ibre **O**pen **S**ou
 **Password manager software**:
 Software that keeps your passwords stored in an encrypted file protected by a master password. This allows you to store multiple passwords by remembering only one. Password managers are available as software that you install (e.g., KeePass) and as a web based service (e.g., LastPass). While web based password managers can be very convenient the threats against them, like all web tools, are numerous so may be best avoided for highly sensitive passwords.
 
-**Pluggable Transport**:  
-A feature of Tor software that allows you to add small modules that make your Internet traffic look like something else. There are Pluggable Transports that
+**Pluggable Transports**
+Pluggable Transports are a set of small pieces of software that diguise the information traveling between your device and the Tor network. Pluggable transports to make it look like you are doing something something that is hard or impossible to block like online searches, games or other regular activities.
 
 **Proprietary Software**:
 Software for which the source code which describes the way the software works is not made available to the end user. The security level of using such software is difficult to verify and generally rests upon a significant amount of trust in the company or people making it in addition to analysis of the running program.
