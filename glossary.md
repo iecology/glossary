@@ -24,6 +24,9 @@ stored on personal equipment. Depending on circumstances, distributing encrypted
 **Bridge Relay**:  
 A Bridge Relay is a server in the Tor network that is not publicly announced and so harder to block. If you choose to use a bridge, the server can provide you with access to the Tor network even if Tor is blocked in your country or network.
 
+**Circumvention**:
+The act of bypassing Internet controls, whether filters, censorship or monitoring, to safely and reliably access monitored or blocked websites and other Internet services.
+
 **Cookies**:
 Small files placed on your computer by websites that you visit to help customize your experience. They are used to manage website features such as logins and can also be used to track behavior on the web. While not all cookies are a security risk, if poorly implemented they can expose the information they contain. Read more about cookies [here](http://www.allaboutcookies.org/)
 
